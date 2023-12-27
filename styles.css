@@ -1,0 +1,27 @@
+body {
+    background-color: #ebdcc5;
+}
+a {
+    border:0;
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+.center {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.text {
+    color: #4f2d08;
+    font-family: 'Montserrat', sans-serif;
+}
+.text.main {
+    font-size: 4vh;
+}
+.text.undermain {
+    font-size: 2vh;
+}
