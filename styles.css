@@ -1,0 +1,27 @@
+body {
+    background-color: #ebdcc5;
+}
+.center {  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.text {
+    font-size: 3vh;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #4f2d08;
+}
+
+.data {
+    font-size: 4vh;
+    font-weight: 600;
+}
+
+.type {
+    font-size: 2.5vh;
+    font-weight: 400;
+}
