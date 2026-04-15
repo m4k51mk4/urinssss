@@ -290,3 +290,18 @@ h1, .text {
         display: none;
     }
 }
+
+@media (max-width: 768px) and (orientation: portrait) {
+    .particles {
+        -webkit-mask-image:
+            linear-gradient(to bottom,
+                #000 0%, #000 30%,
+                transparent 42%, transparent 58%,
+                #000 70%, #000 100%);
+        mask-image:
+            linear-gradient(to bottom,
+                #000 0%, #000 30%,
+                transparent 42%, transparent 58%,
+                #000 70%, #000 100%);
+    }
+}
